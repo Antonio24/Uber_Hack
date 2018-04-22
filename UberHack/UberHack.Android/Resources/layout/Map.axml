@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        class="com.google.android.gms.maps.MapFragment" />
+    <Button
+        android:text="+"
+        android:background="@color/foreground_material_dark"
+        android:foreground="@color/foreground_material_light"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/inserirBtn"
+        android:layout_marginTop="415dp"
+        android:layout_marginLeft="280dp" />
+    <Button
+        android:text="+"
+        android:background="@color/foreground_material_dark"
+        android:foreground="@color/foreground_material_light"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/inserirBtn"
+        android:layout_marginTop="415dp"
+        android:layout_marginLeft="280dp" />
+    <Button
+        android:text="Calçada Irregular"
+        android:background="@color/foreground_material_dark"
+        android:foreground="@color/foreground_material_light"
+        android:layout_height="80dp"
+        android:id="@+id/calcadaBtn"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+</RelativeLayout>
